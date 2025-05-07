@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBUtil {
-	// DB 연결
+	// DB 연결(git 연결 테스트)
 	public static Connection getConnection() {
 		Connection conn = null;
 		String url = "jdbc:oracle:thin:@192.168.0.156:1521:xe";
